@@ -1,49 +1,25 @@
-title: Hintbits # The title of the blog
-author: Oleksii Kliukin # Your name 
-url: blog.hintbits.com # this is your site's root address.
-description: > # this means to ignore newlines until "show_excerpts:"
+title: Hintbits
+author: Oleksii Kliukin
+url: blog.hintbits.com
+description: >
   Oleskii Kliukin personal page. Still figuring out what to write about.
-favicon: "./favicon.ico" # set the favicon of the site 
+favicon: "./favicon.ico"
 
-show_excerpts: false # set to true to show excerpts on the homepage
+show_excerpts: false
 
-# Moving date format
-# refer to https://shopify.github.io/liquid/filters/date/ if you want to customize this
 moving:
-  avatar_url: "https://avatars0.githubusercontent.com/u/339913?s=460&v=4" # avatar in about page
+  avatar_url: "https://avatars0.githubusercontent.com/u/339913?s=460&v=4"
   about_you: Husband, father, software engineer and PostgreSQL contributor.
-  date_format: "%b %d" # date format of posts in home page
-  back_to: "Home" # In the post page, you have a back button above the title, you can custom the text by yourself.
+  date_format: "%b %d"
+  back_to: "Home"
 
-  # generate social links in about page.
   social_links:
     twitter: alexeyklyukin
     github:  alexeyklyukin
     rss: RSS
-    # dribbble: 
-    #facebook: huangyz0918
-    # flickr:   
-    # instagram: 
     linkedin: alexeyklyukin
-    # pinterest: 
-    # youtube: 
-    # youtube_channel: 
-    # youtube_channel_name: 
-    # telegram: 
-    # googleplus: 
-    # microdotblog: 
-    # reddit: 
 
-    # Mastodon instances
-    # mastodon:
-    # - username: 
-    #   instance: 
-    # - username: 
-    #   instance: 
-
-# Build settings
 remote_theme: huangyz0918/moving
 
 plugins:
   - jekyll-feed
-  - jekyll-seo-tag
