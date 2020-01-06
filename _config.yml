@@ -21,4 +21,5 @@ moving:
 remote_theme: huangyz0918/moving
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-feed
